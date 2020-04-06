@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:mixer/mixer.dart';
 
-class Achievements {
+class ServiceAchievements {
   final MixerApi _client;
 
-  Achievements(MixerApi client) : _client = client;
+  ServiceAchievements(MixerApi client) : _client = client;
 
   /// Gets a list of all known achievements.
   /// https://dev.mixer.com/rest/index.html#achievements_get
